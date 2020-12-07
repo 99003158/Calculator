@@ -18,7 +18,9 @@ int multiply(int operand1, int operand2)
     return operand1 * operand2;
 }
 
-int divide(int operand1, int operand2)
+//int divide(int operand1, int operand2)
+
+    int divide(int operand1, int operand2)
 {
     if(0 == operand2)
         return 0;
