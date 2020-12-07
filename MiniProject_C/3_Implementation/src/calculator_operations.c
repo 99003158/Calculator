@@ -61,7 +61,8 @@ int factorial(int operand1)
     return fact;
 }
 
-int inverse(int operand1)
+//int inverse(int operand1)
+ int inverse(int operand1)
 {
         if(0 == operand1)
         return 0;
