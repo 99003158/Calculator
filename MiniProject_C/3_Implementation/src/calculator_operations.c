@@ -29,7 +29,7 @@ int multiply(int operand1, int operand2)
 }
 
 //int modulo(int operand1, int operand2)
-int modulo(int operand1, int operand2)
+int modulo(int operand1, int operand2)// modulo of a number
 {
     if(0 == operand2)
         return 0;
