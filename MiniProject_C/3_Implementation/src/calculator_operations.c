@@ -51,7 +51,7 @@ int power(int operand1, int operand2)//power of a number
  return res;
 }
 
-int factorial(int operand1)
+int factorial(int operand1)// factorial of a number
 {
     int i,fact=1;
     for(i=1;i<=operand1;i++)
