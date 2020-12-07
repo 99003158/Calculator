@@ -50,6 +50,7 @@ return 0;
 void test_add(void)
 {
 CU_ASSERT(50==add(20,30));
+//* DUMMY CU_ASSERT(10==add(4,2)); *//    
 }
 
 void test_subtract(void)
@@ -79,12 +80,6 @@ void test_power(void)
 {
 CU_ASSERT(125==power(5,3));
 }
-
-
-
-
-
-
 void test_length(void)
 {
 CU_ASSERT(60==length(5));
