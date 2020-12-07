@@ -1,5 +1,6 @@
 #include "calculator_operations.h"
 #include <math.h>
+//#define VALID   (1)
 #define VALID   (1)
 //#define INVALID (0)
 #define INVALID (0)
