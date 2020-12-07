@@ -14,7 +14,6 @@ void test_divide(void);
 void test_factorial(void);
 void test_modulo(void);
 void test_power(void);
-//void test_length(void);
 void test_length(void);
 
 
