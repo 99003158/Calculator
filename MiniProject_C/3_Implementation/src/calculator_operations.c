@@ -76,12 +76,12 @@ int currency(int operand1)
     return operand1 * 74;
 }
 
-int length(int operand1)
+int length(int operand1) //to find the length
 {
     return operand1 * 12;
 }
 
-int time(int operand1)// find out the time
+int time(int operand1)// to find the time
 {
     return operand1 * 60;
 }
