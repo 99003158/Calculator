@@ -64,6 +64,7 @@ int inverse(int operand1)
         return 1 / operand1;
 }
 
+//int currency(int operand1)
 int currency(int operand1)
 {
     return operand1 * 74;
