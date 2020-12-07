@@ -10,6 +10,7 @@ int calculator_operand2 = 0;
 /* Valid operations */
 enum operations { ADD=1, SUBTRACT, MULTIPLY, DIVIDE, MODULO, POWER, FACTORIAL,LENGTH, TIME, EXIT };
 void calculator_menu(void);
+//int valid_operation(int operation);
 int valid_operation(int operation);
 int main(int argc, char *argv[])
 {
