@@ -2,7 +2,9 @@
 #include<CUnit/CUnit.h>
 
 #include <calculator_operations.h>
+//#define PROJECT_NAME "Calculator"
 #define PROJECT_NAME "Calculator"
+
 
 void test_add(void);
 void test_subtract(void);
