@@ -56,6 +56,7 @@ CU_ASSERT(50==add(20,30));
 void test_subtract(void)
 {
 CU_ASSERT(5==subtract(3,2));
+//* DUMMY CU_ASSERT(1==subtract(3,2)); *//    
 }
 
 void test_multiply(void)
