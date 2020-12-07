@@ -81,7 +81,7 @@ int length(int operand1)
     return operand1 * 12;
 }
 
-int time(int operand1)
+int time(int operand1)// find out the time
 {
     return operand1 * 60;
 }
