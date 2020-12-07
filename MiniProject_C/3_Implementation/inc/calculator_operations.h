@@ -32,6 +32,7 @@ int subtract(int operand1, int operand2);
 * @param[in] operand2
 * @return Result of operand1 * operand2
 */
+//int multiply(int operand1, int operand2);
 int multiply(int operand1, int operand2);
 
 
