@@ -10,13 +10,13 @@ int calculator_operand1 = 0;
 int calculator_operand2 = 0;
 
 /* Valid operations */
-enum operations { ADD=1, SUBTRACT, MULTIPLY, DIVIDE, MODULO, POWER, FACTORIAL,LENGTH, TIME, EXIT };
+enum operations { ADD=1, SUBTRACT, MULTIPLY, DIVIDE, MODULO, POWER, FACTORIAL,LENGTH, TIME, EXIT }; 
 void calculator_menu(void);
 //int valid_operation(int operation);
 int valid_operation(int operation);
 int main(int argc, char *argv[])
 {
-    //printf("SIMPLE CALCULATOR\n");
+    //ARGUMENT COUNTER IS USED
     printf("SIMPLE CALCULATOR\n");
     while(1)
     {
@@ -35,6 +35,7 @@ void calculator_menu(void)
     scanf("%d", &calculator_operation);
 
     if(EXIT == calculator_operation)
+        //* EXIT IS USED TO COME OUT OF THE CURRENT OPERATION *//
     {
         printf("\nThank you. Exiting the Application\n");
         exit(0);
