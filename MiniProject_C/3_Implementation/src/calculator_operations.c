@@ -37,7 +37,7 @@ int modulo(int operand1, int operand2)
         return operand1 % operand2;
 }
 
-int power(int operand1, int operand2)
+int power(int operand1, int operand2)//power of a number
 {int res=1;
     if(0 == operand2)
         return 1;
