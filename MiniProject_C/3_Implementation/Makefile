@@ -43,6 +43,6 @@ test:$(BUILD)
 clean:
 	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
 
-# Create new build folder if not present
+# Create new build folder if not present // build folder
 $(BUILD):
 	mkdir build
