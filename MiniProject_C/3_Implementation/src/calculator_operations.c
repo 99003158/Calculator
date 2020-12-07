@@ -83,5 +83,5 @@ int length(int operand1) //to find the length
 
 int time(int operand1)// to find the time
 {
-    return operand1 * 60;
+    return operand1 * 60;//* HOURS TO MINUTES CONVERSION *//
 }
