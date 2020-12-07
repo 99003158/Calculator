@@ -74,6 +74,7 @@ CU_ASSERT(3==add(12,4));
 void test_factorial(void)
 {
 CU_ASSERT(720==factorial(6));
+//* DUMMY CU_ASSERT(500==factorial(5)); *//
 }
 void test_modulo(void)
 {
