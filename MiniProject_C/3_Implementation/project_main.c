@@ -27,6 +27,7 @@ void calculator_menu(void)
 {
     printf("\nCalculator Operations:\n");
     printf("\n1. ADDITION:\n2. SUBTRACTION:\n3. MULTIPLICATION:\n4. DIVIDE:\n5. MODULUS:\n6. POWER:\n7. FACTORIAL\n8. LENGTH:\n9. TIME:\n10. EXIT:");
+    //printf("\n\tEnter your choice\n");
     printf("\n\tEnter your choice\n");
 
 
@@ -53,7 +54,9 @@ void calculator_menu(void)
         return;
 
     }
+   // switch(calculator_operation)
     switch(calculator_operation)
+    
     {
     case ADD:
         printf("\n\t%d + %d = %d\nEnter to continue",
@@ -121,9 +124,13 @@ void calculator_menu(void)
 
 
     case LENGTH:
-        printf("\n\t%d Feet = %d Inches\nEnter to continue",
+        //printf("\n\t%d Feet = %d Inches\nEnter to continue",
+               //calculator_operand1,
+               //length(calculator_operand1));
+            printf("\n\t%d Feet = %d Inches\nEnter to continue",
                calculator_operand1,
-               length(calculator_operand1));
+                   length(calculator_operand1));
+                   
 
 
         getchar();
@@ -140,7 +147,8 @@ void calculator_menu(void)
         exit(0);
         break;
     default:
-        printf("\n\t---It should never come here---\n");
+       // printf("\n\t---It should never come here---\n");
+            printf("\n\t---It should never come here---\n");
     }
 }
 
