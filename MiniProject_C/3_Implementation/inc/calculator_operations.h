@@ -11,7 +11,7 @@
 
 
 /**
-*  adds the operand1 and operand2 and returns the result
+*  adds the two variables operand1 and operand2 and returns the result
 * @param[in] operand1
 * @param[in] operand2
 * @return Result of operand1 + operand2
