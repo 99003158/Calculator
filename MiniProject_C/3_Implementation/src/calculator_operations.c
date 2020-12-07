@@ -73,12 +73,12 @@ int factorial(int operand1)// factorial of a number
 //int currency(int operand1)
 int currency(int operand1)
 {
-    return operand1 * 74;
+    return operand1 * 74;//* USD TO INR CONVERSION *//
 }
 
 int length(int operand1) //to find the length
 {
-    return operand1 * 12;
+    return operand1 * 12;//* INCHES TO FEET CONVERSION *//
 }
 
 int time(int operand1)// to find the time
