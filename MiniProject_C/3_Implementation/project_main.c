@@ -15,6 +15,7 @@ void calculator_menu(void);
 int valid_operation(int operation);
 int main(int argc, char *argv[])
 {
+    //printf("SIMPLE CALCULATOR\n");
     printf("SIMPLE CALCULATOR\n");
     while(1)
     {
