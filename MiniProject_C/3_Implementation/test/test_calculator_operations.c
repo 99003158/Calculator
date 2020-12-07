@@ -62,6 +62,7 @@ CU_ASSERT(5==subtract(3,2));
 void test_multiply(void)
 {
 CU_ASSERT(20==add(5,4));
+//* DUMMY CU_ASSERT(20==multiply(4,4)); *//
 }
 
 void test_divide(void)
